@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	font-size: 20px;
+}
+
+html {
+	font-family: Consolas;
+	background-color: grey;
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#body {
+	margin-top: 20px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: lightgrey;
+	padding-bottom: 50px;
+	box-shadow: black 2px 2px;
+}
+
+#header {
+	width: 100%;
+	background-color: lightgrey;
+	height: 50px;
+}
+
+#menu {
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	height: 100%;
+	padding-top: 11px;
+}
+
+#menu > a {
+	font-size: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.ProjectContainer {
+	
+}
+
+
+#me {
+	padding-top: 20px;
+	min-width: 20%;
+	max-width: 40%;
+	display: block;
+	border-radius: 5000px;
+}
+
+.roundedCorners {
+	border-radius: 50px;
+}
+
+#aboutText {
+	margin-top: 50px;
+}

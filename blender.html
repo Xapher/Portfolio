@@ -8,22 +8,103 @@
 	<section id="header">
 		<section id="menu">
 				<a href="index.html">Home</a>
-				<a href="websites.html">Web Related</a>
 				<a href="blender.html">Blender</a>
 				<a href="unity.html">Unity</a>
-				<a href="other.html">Other Projects</a>
 			</section>
 	</section>
-	<section id="body">
-		<section id="AboutProjects">
-			Blender can be used for a lot of different areas. When using blender i've used it for projects ranging from rendering a sprite sheet for a c# game to editing personal videos and image manipulation. My main use for blender is ripping or recreating mesh from different games to use them for 3D printing.
+	<section id="body" class="roundedCorners">
+		<section id="aboutText">
+			I use blender for a lot of different areas, especially since it's become so popular, there's a lot of different things you can do with it. When using blender i've used it for projects ranging from rendering a sprite sheet for a c# game to editing personal videos, image manipulation, and Video Game development. My main use for blender is recreating mesh from different games to use them for 3D printing, or creating my own assets for games i'm developing.
 		</section>
-		<section class="ProjectContainer">
-			<h1 class="projectName"></h1>
-			<img src="" class="projectPreview">
-			<section class="shortDescription">
-				
+
+
+		<section class="project roundedCorners">
+			<h1>Symmetra Gun 3D Print</h1>
+			<p>Recreated model from the game overwatch for freelance client (not for release)</p>
+
+			<button id="symmShow" onclick="document.getElementById('symmContainer').classList.remove('hidden');this.classList.add('hidden');document.getElementById('symmHide').classList.remove('hidden');"><img class="show" src="arrow.png"></button>
+			<section id="symmContainer" class="projectContents hidden">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/UV1Uq143uNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<img width="512" src="Projects/Blender/SymmetraDragonGun/a.jpg">
+				<img width="512" src="Projects/Blender/SymmetraDragonGun/b.jpg">
+				<img width="512" src="Projects/Blender/SymmetraDragonGun/c.jpg">
 			</section>
+			<button id="symmHide" class="hidden" onclick="document.getElementById('symmContainer').classList.add('hidden');this.classList.add('hidden');document.getElementById('symmShow').classList.remove('hidden');"><img class="hide" src="arrow.png"></button>
+		</section>
+
+
+
+
+		<section class="project roundedCorners">
+			<h1>Hammond character Ball</h1>
+			<p>Remeshed model from the game overwatch  <a href="https://www.cgtrader.com/free-3d-print-models/miniatures/other/hammond-wrecking-ball">CG-Trader Link</a></p>
+
+			<button id="hammShow" onclick="document.getElementById('hammondContainer').classList.remove('hidden');this.classList.add('hidden');document.getElementById('hammHide').classList.remove('hidden');"><img class="show" src="arrow.png"></button>
+			<section id="hammondContainer" class="projectContents hidden">
+				<video width="640" height="640" controls loop>
+					<source src="Projects/Blender/HammondBall/0010-0070.mp4" type="video/mp4">
+				</video>
+			</section>
+			<button id="hammHide" class="hidden" onclick="document.getElementById('hammondContainer').classList.add('hidden');this.classList.add('hidden');document.getElementById('hammShow').classList.remove('hidden');"><img class="hide" src="arrow.png"></button>
+		</section>
+
+
+		<section class="project roundedCorners">
+			<h1>Genji's Sword</h1>
+			<p>Remeshed/Recreated model from the game overwatch  <a href="https://www.cgtrader.com/free-3d-print-models/games-toys/other/genji-sword">CG-Trader Link</a></p>
+
+			<button id="genjiShow" onclick="document.getElementById('genjiContainer').classList.remove('hidden');this.classList.add('hidden');document.getElementById('genjiHide').classList.remove('hidden');"><img class="show" src="arrow.png"></button>
+			<section id="genjiContainer" class="projectContents hidden">
+				<img width="640" src="Projects/Blender/GenjiSword/genji-sword-3d-model-stl (1).jpg">
+				<img width="640" src="Projects/Blender/GenjiSword/genji-sword-3d-model-stl.jpg">
+			</section>
+			<button id="genjiHide" class="hidden" onclick="document.getElementById('genjiContainer').classList.add('hidden');this.classList.add('hidden');document.getElementById('genjiShow').classList.remove('hidden');"><img class="hide" src="arrow.png"></button>
+		</section>
+
+		<section class="project roundedCorners">
+			<h1>Mokoko Screen budy</h1>
+			<p>Remeshed/Recreated model from the game Lost Ark  <a href="https://www.printables.com/model/224335-lost-ark-mokoko-screen-buddy">Printables Link</a></p>
+
+			<button id="mokokoShow" onclick="document.getElementById('mokokoContainer').classList.remove('hidden');this.classList.add('hidden');document.getElementById('mokokoHide').classList.remove('hidden');"><img class="show" src="arrow.png"></button>
+			<section id="mokokoContainer" class="projectContents hidden">
+				<img width="320" src="Projects/Blender/mokoko/BeanieAllLeaves.png">
+				<img width="320" src="Projects/Blender/mokoko/8MMrepresentation.png">
+				<img width="320" src="Projects/Blender/mokoko/AccessorieVariants.png">
+			</section>
+			<button id="mokokoHide" class="hidden" onclick="document.getElementById('mokokoContainer').classList.add('hidden');this.classList.add('hidden');document.getElementById('mokokoShow').classList.remove('hidden');"><img class="hide" src="arrow.png"></button>
+		</section>
+
+
+		<section class="project roundedCorners">
+			<h1>M1911</h1>
+			<p>Model Created by me using a M1911 as reference. Unreleased, Untextured, plan to texture</p>
+
+			<button id="m1911Show" onclick="document.getElementById('m1911Container').classList.remove('hidden');this.classList.add('hidden');document.getElementById('m1911Hide').classList.remove('hidden');"><img class="show" src="arrow.png"></button>
+			<section id="m1911Container" class="projectContents hidden">
+				<img width="640" src="Projects/Blender/M1911/0000.png">
+				<img width="640" src="Projects/Blender/M1911/0001.png">
+				<img width="640" src="Projects/Blender/M1911/0002.png">
+				<img width="640" src="Projects/Blender/M1911/0003.png">
+				<img width="640" src="Projects/Blender/M1911/0004.png">
+				<img width="640" src="Projects/Blender/M1911/0005.png">
+				<img width="640" src="Projects/Blender/M1911/0006.png">
+				<video width="640" height="480" controls loop>
+					<source src="Projects/Blender/M1911/0000-0060.mp4" type="video/mp4">
+				</video>
+			</section>
+			<button id="m1911Hide" class="hidden" onclick="document.getElementById('m1911Container').classList.add('hidden');this.classList.add('hidden');document.getElementById('m1911Show').classList.remove('hidden');"><img class="hide" src="arrow.png"></button>
+		</section>
+
+
+		<section class="project roundedCorners">
+			<h1>Concept proof of Main Menu of a game</h1>
+			<p>Just something i was working on to try to get the feel for the game down.</p>
+
+			<button id="mossShow" onclick="document.getElementById('mossContainer').classList.remove('hidden');this.classList.add('hidden');document.getElementById('mossHide').classList.remove('hidden');"><img class="show" src="arrow.png"></button>
+			<section id="mossContainer" class="projectContents hidden">
+				<img width="640" src="Projects/Blender/MossConcept/BeginningConcept.png">
+			</section>
+			<button id="mossHide" class="hidden" onclick="document.getElementById('mossContainer').classList.add('hidden');this.classList.add('hidden');document.getElementById('mossShow').classList.remove('hidden');"><img class="hide" src="arrow.png"></button>
 		</section>
 	</section>
 	<section id="footer">

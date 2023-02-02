@@ -5,7 +5,7 @@ body {
 
 html {
 	font-family: Consolas;
-	background-color: grey;
+	background-color: #FFFFFF;
 }
 
 .centered {
@@ -15,7 +15,7 @@ html {
 
 #body {
 	margin-top: 20px;
-	width: 70%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 50px;
@@ -56,10 +56,7 @@ a {
 
 #me {
 	padding-top: 20px;
-	min-width: 20%;
-	max-width: 40%;
 	display: block;
-	border-radius: 5000px;
 }
 
 .roundedCorners {
@@ -67,5 +64,32 @@ a {
 }
 
 #aboutText {
-	margin-top: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.hidden {
+	display: none;
+}
+
+.project {
+	outline: solid black 1px;
+	text-align: center;
+	box-shadow: black 2px 2px;
+	padding: 5px;
+	margin: 10px;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.hide {
+	rotate: 90deg;
+}
+
+.show {
+	rotate: -90deg;
 }
